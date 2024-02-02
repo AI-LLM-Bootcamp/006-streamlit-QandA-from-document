@@ -1,6 +1,6 @@
 streamlit
 langchain
 langchain-openai
-chromadb
+chromadb==0.3.29
 tiktoken
 PyPDF2
