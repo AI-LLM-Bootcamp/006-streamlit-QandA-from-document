@@ -9,7 +9,7 @@ from langchain_openai import OpenAI
 from langchain.chains import RetrievalQA
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from PyPDF2 import PdfReader
 
 # Input .txt file
