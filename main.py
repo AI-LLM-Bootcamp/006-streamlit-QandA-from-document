@@ -1,6 +1,6 @@
 import streamlit as st
 import chromadb
-from langchain.llms import OpenAI
+from langchain_openai import OpenAI
 from langchain.chains import RetrievalQA
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
